@@ -1,0 +1,7 @@
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\tstBookingWastes\bin\Debug\tstBookingWastes.dll
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\tstBookingWastes\bin\Debug\tstBookingWastes.pdb
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\tstBookingWastes\bin\Debug\BWClassLibrary.dll
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\tstBookingWastes\bin\Debug\BWClassLibrary.pdb
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\tstBookingWastes\obj\Debug\tstBookingWastes.csprojResolveAssemblyReference.cache
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\tstBookingWastes\obj\Debug\tstBookingWastes.dll
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\tstBookingWastes\obj\Debug\tstBookingWastes.pdb
