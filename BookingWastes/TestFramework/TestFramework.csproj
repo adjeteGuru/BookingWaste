@@ -54,6 +54,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tstBooking.cs" />
+    <Compile Include="tstBookingCollection.cs" />
+    <Compile Include="tstCustomer.cs" />
+    <Compile Include="tstCustomerCollection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BWClassLibrary\BWClassLibrary.csproj">
+      <Project>{11A0692F-0E7D-4D10-AF10-A2B9228621ED}</Project>
+      <Name>BWClassLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -5,14 +5,12 @@ using BWClassLibrary;
 namespace TestFramework
 {
     [TestClass]
-    public class tstBooking
+    public class tstCustomerCollection
     {
         [TestMethod]
         public void InstanceOk()
-        
         {
-            clsBooking ABooking = new clsBooking();
-
+            clsCustomerCollection CustCollection = new clsCustomerCollection();
         }
     }
 }
