@@ -1,1 +1,11 @@
 C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\bin\Debug\BackEnd.exe.config
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\bin\Debug\BackEnd.exe
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\bin\Debug\BackEnd.pdb
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\bin\Debug\BWClassLibrary.dll
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\bin\Debug\BWClassLibrary.pdb
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\obj\Debug\BackEnd.csprojResolveAssemblyReference.cache
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\obj\Debug\BackEnd.Form1.resources
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\obj\Debug\BackEnd.Properties.Resources.resources
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\obj\Debug\BackEnd.csproj.GenerateResource.Cache
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\obj\Debug\BackEnd.exe
+C:\Users\adjete\Source\Repos\BookingWaste\BookingWastes\BackEnd\obj\Debug\BackEnd.pdb
