@@ -47,7 +47,7 @@ namespace TestFramework
 
         }
 
-        //test the property d
+        //test the property dr
         [TestMethod]
         public void TestRubbish()
 
@@ -93,7 +93,7 @@ namespace TestFramework
 
         }
 
-        //test validation property for anay new data
+        //test validation property for anay new datas
         [TestMethod]
         public void TestValidation()
 
@@ -133,30 +133,30 @@ namespace TestFramework
 
         }
 
-        //test Find method any new data
-        [TestMethod]
-        public void TestBookingNoFound()
+        ////test Find method any new data
+        //[TestMethod]
+        //public void TestBookingNoFound()
 
-        {// create an instance of the class
-            clsBooking ABooking = new clsBooking();
+        //{// create an instance of the class
+        //    clsBooking ABooking = new clsBooking();
 
-            //create object to hold the result info
-            Boolean Found = false;
-            //Boolean variable to record if data is OK
-            Boolean OK = true;
-            //create a testdata to against the object
-            int BookingId = 4;
+        //    //create object to hold the result info
+        //    Boolean Found = false;
+        //    //Boolean variable to record if data is OK
+        //    Boolean OK = true;
+        //    //create a testdata to against the object
+        //    int BookingId = 4;
 
-            //invoke the method
-            Found = ABooking.Find(BookingId);
-            if (ABooking.BookingId != 4)
-            {
-                OK = false;
-            }
+        //    //invoke the method
+        //    Found = ABooking.Find(BookingId);
+        //    if (ABooking.BookingId != 4)
+        //    {
+        //        OK = false;
+        //    }
 
-            //test the result
-            Assert.IsTrue(OK);
+        //    //test the result
+        //    Assert.IsTrue(OK);
 
-        }
+        //}
     }
 }
