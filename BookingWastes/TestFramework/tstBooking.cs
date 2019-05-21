@@ -92,7 +92,7 @@ namespace TestFramework
 
         }
 
-        //test validation property for anay new data d
+        //test validation property for anay new data
         [TestMethod]
         public void TestValidation()
 
@@ -103,7 +103,7 @@ namespace TestFramework
             //create a test data for the test
             string Electrical = "Saw";
             string Household = "Chair";
-            Int32 Rubbish = 2;
+            Int32 Rubbish = 5;
             DateTime CollectionDate = DateTime.Now.Date;
             string TimeSlot = "10am";
             Error = ABooking.Valid(Electrical, Household, Rubbish, CollectionDate, TimeSlot);
