@@ -2,5 +2,6 @@
 {
     public class clsBookingCollection
     {
+        public int Count;
     }
 }

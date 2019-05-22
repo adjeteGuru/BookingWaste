@@ -6,7 +6,13 @@ namespace TestFramework
 {
     [TestClass]
     public class tstBooking
-    {
+    {//variables declared for test
+    //    string Electrical = "Saw";
+    //    string Household = "Chair";
+    //    int Rubbish = 2;
+    //    string CollectionDate = DateTime.Now.Date.ToString();
+    //    string TimeSlot = "9:00AM";
+
         [TestMethod]
         public void InstanceOk()
         
@@ -123,7 +129,7 @@ namespace TestFramework
             Boolean Found = false;
 
             //create a testdata to against the object
-            int BookingId = 3;
+            int BookingId = 2;
 
             //invoke the method
            Found = ABooking.Find(BookingId);

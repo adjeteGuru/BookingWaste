@@ -3,77 +3,85 @@
 namespace BWClassLibrary
 {
     public class clsBooking
-    {//attributes
-        private DateTime mCollectionDate { get; set; }
-        private string mElectrical { get; set; }
-        private string mHousehold { get; set; }
-        private int mRubbish { get; set; }
-        private string mTimeSlot { get; set; }
-
-
-        //Encapsulation
-        public DateTime CollectionDate
-        {
-            get
-            {
-                return mCollectionDate;
-            }
-            set
-            {
-                value = mCollectionDate;
-            }
-        }
-
-
-        public string Electrical
-        {
-            get
-            {
-                return mElectrical;
-            }
-            set
-            {
-                value = mElectrical;
-            }
-        }
-
-        public string Household
-        {
-            get
-            {
-                return mHousehold;
-            }
-            set
-            {
-                value = mHousehold;
-            }
-        }
-
-        public Int32 Rubbish
-        {
-            get
-            {
-                return mRubbish;
-            }
-            set
-            {
-                value = mRubbish;
-            }
-        }
-
-        public string TimeSlot
-        {
-            get
-            {
-                return mTimeSlot;
-            }
-            set
-            {
-                value = mTimeSlot;
-            }
-        }
-
+    {
+        public DateTime CollectionDate { get; set; }
+        public string Electrical { get; set; }
+        public string Household { get; set; }
+        public int Rubbish { get; set; }
+        public string TimeSlot { get; set; }
         public int BookingId { get; set; }
+
+        //attributes
+        //private DateTime mCollectionDate; /*{ get; set; }*/
+        //private string mElectrical; /*{ get; set; }*/
+        //private string mHousehold; /*{ get; set; }*/
+        //private int mRubbish; /*{ get; set; }*/
+        //private string mTimeSlot; /*{ get; set; }*/
+        //private int BookingId;/*{ get; set; }*/
+
+        ////Encapsulation
+        //public DateTime CollectionDate
+        //{
+        //    get
+        //    {
+        //        return mCollectionDate;
+        //    }
+        //    set
+        //    {
+        //        value = mCollectionDate;
+        //    }
+        //}
+
+
+        //public string Electrical
+        //{
+        //    get
+        //    {
+        //        return mElectrical;
+        //    }
+        //    set
+        //    {
+        //        value = mElectrical;
+        //    }
+        //}
+
+        //public string Household
+        //{
+        //    get
+        //    {
+        //        return mHousehold;
+        //    }
+        //    set
+        //    {
+        //        value = mHousehold;
+        //    }
+        //}
+
+        //public Int32 Rubbish
+        //{
+        //    get
+        //    {
+        //        return mRubbish;
+        //    }
+        //    set
+        //    {
+        //        value = mRubbish;
+        //    }
+        //}
+
+        //public string TimeSlot
+        //{
+        //    get
+        //    {
+        //        return mTimeSlot;
+        //    }
+        //    set
+        //    {
+        //        value = mTimeSlot;
+        //    }
+        //}
+
+
 
 
 
@@ -144,6 +152,7 @@ namespace BWClassLibrary
 
                 //check to see if collection date is before current date
                 if (tempDate > DateTime.Now.AddDays(-1))
+             
                 {
                     //record the error
                     Error = Error + "Collection date must be in the future";
@@ -167,10 +176,10 @@ namespace BWClassLibrary
             return Error;
         }
 
-        //find method
         public bool Find(int bookingId)
         {
             return true;
         }
+        
     }
 }
