@@ -23,6 +23,20 @@ namespace TestFramework
 
         }
 
+        [TestMethod]
+        public void TestBookingId()
+
+        {// create an instance of the class
+            clsBooking ABooking = new clsBooking();
+            //create test data to test the property
+            int BookingId = 1;
+            //assign the property to the object of the class
+            ABooking.BookingId = BookingId;
+            // test the result
+            Assert.AreEqual(BookingId, ABooking.BookingId);
+
+        }
+
         //test the property
         [TestMethod]
         public void TestElectrical()
