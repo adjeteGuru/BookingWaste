@@ -26,5 +26,10 @@ namespace BWClassLibrary
 
             set { }
         }
+
+        public clsBookingCollection()
+        {
+
+        }
     }
 }
